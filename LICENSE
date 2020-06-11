@@ -1,166 +1,166 @@
-                   GNU LESSER GENERAL PUBLIC LICENSE
-                       Version 3, 29 June 2007
+                   LISENSI UMUM DARI GNU LESSER GENERAL 
+                       Versi 3, 29 Juni 2007
 
- Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>
- Everyone is permitted to copy and distribute verbatim copies
- of this license document, but changing it is not allowed.
+ Hak cipta (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>
+ Setiap orang diizinkan untuk menyalin dan mendistribusikan salinan verbatim
+ dari dokumen lisensi ini, namun mengubahnya tidak diperbolehkan.
 
 
-  This version of the GNU Lesser General Public License incorporates
-the terms and conditions of version 3 of the GNU General Public
-License, supplemented by the additional permissions listed below.
+  Versi Umum Lisensi GNU Lesser General ini disertakan
+syarat dan ketentuan dari versi 3 dari Lisensi Umum GNU General, 
+dilengkapi dengan izin tambahan yang tercantum di bawah ini.
 
-  0. Additional Definitions.
+  0. Definisi Tambahan.
 
-  As used herein, "this License" refers to version 3 of the GNU Lesser
-General Public License, and the "GNU GPL" refers to version 3 of the GNU
-General Public License.
+  Seperti yang digunakan disini, "Lisensi ini" mengacu pada versi 3  dari Lisensi Public
+GNU Lesser General, dan "GNU GPL" mengacu ke versi 3 dari Lisensi Umum GNU
+General.
 
-  "The Library" refers to a covered work governed by this License,
-other than an Application or a Combined Work as defined below.
+  "Perpustakaan" mengacu pada sebuah karya tertutup yang diatur oleh Lisensi ini,
+selain Aplikasi atau Karya Gabungan seperti yang didefinisikan di bawah ini.
 
-  An "Application" is any work that makes use of an interface provided
-by the Library, but which is not otherwise based on the Library.
-Defining a subclass of a class defined by the Library is deemed a mode
-of using an interface provided by the Library.
+  Sebuah "Aplikasi" adalah pekerjaan yang memanfaatkan antarmuka yang disediakan
+oleh Perpustakaan, namun tidak berdasarkan pada Perpustakaan.
+Mendefinisikan subkelas kelas yang didefinisikan oleh Perpustakaan dianggap mode
+menggunakan antarmuka yang disediakan oleh Perpustakaan.
 
-  A "Combined Work" is a work produced by combining or linking an
-Application with the Library.  The particular version of the Library
-with which the Combined Work was made is also called the "Linked
-Version".
+  Sebuah "Karya Gabungan" adalah karya yang dihasilkan dengan menggabungkan atau menghubungkan sebuah
+Aplikasi dengan Perpustakaan.  Versi Perpustakaan yang ada
+dalam Karya Gabungan yang dibuat juga disebut "Versi
+Tertaut".
 
-  The "Minimal Corresponding Source" for a Combined Work means the
-Corresponding Source for the Combined Work, excluding any source code
-for portions of the Combined Work that, considered in isolation, are
-based on the Application, and not on the Linked Version.
+  "Kecocokan Sumber Minimal" untuk sebuah Karya Gabungan berarti
+Sumber yang sesuai untuk Karya Gabungan, tidak termasuk kode sumber apa pun
+untuk bagian dari Karya Gabungan yang, dianggap terpisah, adalah
+berdasarkan Aplikasi, dan juga bukan Versi Tertaut.
 
-  The "Corresponding Application Code" for a Combined Work means the
-object code and/or source code for the Application, including any data
-and utility programs needed for reproducing the Combined Work from the
-Application, but excluding the System Libraries of the Combined Work.
+  "Kode Aplikasi yang Sesuai" untuk Karya Gabungan berarti
+kode obyek dan/atau sumber kode untk Aplikasi, termasuk data apapun
+dan program utilitas yang dibutuhkan untuk mereproduksi karya gabungan dari
+Aplikasi, tetapi tidak termasuk Sistem Perpustakaan dari Karya Gabungan.
 
-  1. Exception to Section 3 of the GNU GPL.
+  1. Pengecualian pada Bagian 3 dari GNU GPL.
 
-  You may convey a covered work under sections 3 and 4 of this License
-without being bound by section 3 of the GNU GPL.
+  Kamu dapat menyampaikan karya tertutup di bawah bagian 3 dan 4 dari Lisensi ini
+tanpa terikat oleh bagian 3 dari GNU GPL.
 
-  2. Conveying Modified Versions.
+  2. Menyampaikan Versi Modifikasi.
 
-  If you modify a copy of the Library, and, in your modifications, a
-facility refers to a function or data to be supplied by an Application
-that uses the facility (other than as an argument passed when the
-facility is invoked), then you may convey a copy of the modified
-version:
+  Jika kamu memodifikasi salinan Perpustakaan, dan, dalam modifikasi kamu, sebuah
+fasilitas mengacu pada fungsi atau data yang akan diberikan oleh Aplikasi
+yang menggunakan fasilitas tersebut (selain sebagai argumen dilewatkan saat
+fasilitas dipanggil), maka kamu bisa menyampaikan sebuah salinan versi yang
+dimodifikasi:
 
-   a) under this License, provided that you make a good faith effort to
-   ensure that, in the event an Application does not supply the
-   function or data, the facility still operates, and performs
-   whatever part of its purpose remains meaningful, or
+   a) dibawah Lisensi ini, asalkan Kamu berusaha dengan baik
+   pastikan bahwa, dalam hal Aplikasi tidak menyediakan
+   fungsi atau data, fasilitas tetap beroperasi, dan melakukan
+   apapun bagian dari tujuannya tetap berarti, atau
 
-   b) under the GNU GPL, with none of the additional permissions of
-   this License applicable to that copy.
+   b) di bawah GNU GPL, tanpa izin tambahan dari
+   Lisensi ini berlaku untuk salinan itu.
 
-  3. Object Code Incorporating Material from Library Header Files.
+  3. Kode Objek yang Memasukkan Material dari File Header Perpustakaan.
 
-  The object code form of an Application may incorporate material from
-a header file that is part of the Library.  You may convey such object
-code under terms of your choice, provided that, if the incorporated
-material is not limited to numerical parameters, data structure
-layouts and accessors, or small macros, inline functions and templates
-(ten or fewer lines in length), you do both of the following:
+  Bentuk kode objek dari sebuah Aplikasi dapat menggabungkan material dari
+sebuah file header yang merupakan bagian dari Perpustakaan.  Kamu bisa menyampaikan seperti kode
+objek dibawah ketentuan dari pilihan kamu, asalkan itu, jika digabungkan
+material tidak terbatas pada parameter numerik, struktur data
+tata letak dan aksesori, atau makro kecil, fungsi dan template sebaris
+(sepuluh atau lebih sedikit garis panjangnya), kamu melakukan kedua hal berikut:
 
-   a) Give prominent notice with each copy of the object code that the
-   Library is used in it and that the Library and its use are
-   covered by this License.
+   a) Berikan pemberitahuan yang mencolok dengan setiap salinan kode objek yang
+    Perpustakaan digunakan di dalamnya dan bahwa Perpustakaan dan penggunaannya adalah
+    dilindungi oleh Lisensi ini.
 
-   b) Accompany the object code with a copy of the GNU GPL and this license
-   document.
+   b) Sandingkan kode obyek dengan salinan GNU GPL dan dokumen 
+   lisensi ini.
 
-  4. Combined Works.
+  4. Karya Gabungan.
 
-  You may convey a Combined Work under terms of your choice that,
-taken together, effectively do not restrict modification of the
-portions of the Library contained in the Combined Work and reverse
-engineering for debugging such modifications, if you also do each of
-the following:
+  Kamu bisa menyampaikan sebuah Karya Gabungan dibawah ketentuan dari pilihanmu itu,
+disatukan, efektif tidak membatasi modifikasi
+bagian - bagian dari Perpustakaan yang terkandung dalam Karya Gabungan an sebaliknya
+rekayasa untuke debugging seperti modifikasi, jika kamu juga melakukan setiap hal
+berikut:
 
-   a) Give prominent notice with each copy of the Combined Work that
-   the Library is used in it and that the Library and its use are
-   covered by this License.
+   a) Berikan pemberitahuan yang mencolok dengan setiap salinan Karya Gabungan yang
+   Perpustakaan digunakan di dalamnya dan Perpustakaan itu dan and penggunaanya 
+   dilindungi oleh Lisensi ini.
 
-   b) Accompany the Combined Work with a copy of the GNU GPL and this license
-   document.
+   b) Sandingkan Karya Gabungan dengan salinan dari GNU GPL dan dokumen 
+   Lisensi ini.
 
-   c) For a Combined Work that displays copyright notices during
-   execution, include the copyright notice for the Library among
-   these notices, as well as a reference directing the user to the
-   copies of the GNU GPL and this license document.
+   c) Untuk Karya Gabungan yang menampilkan pemberitahuan hak cipta selama
+   eksekusi, termasuk pemberitahuan hak cipta untuk Perpustakaan di antaranya
+   Pemberitahuan ini, serta referensi yang mengarahkan pengguna ke
+   salinan GNU GPL dan dokumen lisensi ini.
 
-   d) Do one of the following:
+   d) Lakukan salah satu dari hal berikut:
 
-       0) Convey the Minimal Corresponding Source under the terms of this
-       License, and the Corresponding Application Code in a form
-       suitable for, and under terms that permit, the user to
-       recombine or relink the Application with a modified version of
-       the Linked Version to produce a modified Combined Work, in the
-       manner specified by section 6 of the GNU GPL for conveying
-       Corresponding Source.
+       0) Sampaikan Sumber Sesuai Minimal di bawah persyaratan dari
+       Lisensi ini, an Kode Aplikasi yang Sesuai dalam suatu formulir
+       cocok untuk, dan di bawah persyaratan yang mengizinkan, pengguna untuk 
+       bergabung kembali atau menautkan kembali Aplikasi dengan versi modifikasi dari 
+       Versi Tertaut untuk memproduksi sebuah modifikasi Karya Gabungan, dalam
+       cara yang ditentukan oleh bagian 6 dari GNU GPL untuk pengiriman
+       Sumber yang sesuai.
 
-       1) Use a suitable shared library mechanism for linking with the
-       Library.  A suitable mechanism is one that (a) uses at run time
-       a copy of the Library already present on the user's computer
-       system, and (b) will operate properly with a modified version
-       of the Library that is interface-compatible with the Linked
-       Version.
+       1) Gunakan mekanisme perpustakaan bersama yang sesuai untuk terhubung dengan
+       Perpustakaan.  Mekanisme yang cocok adalah salah satunya (a) menggunakan pada waktu berjalan
+       sebuah salinan dari Perpustakaan yang sudah ada pada sistem komputer 
+       pengguna, dan (b) akan beroperasi dengan benar dengan versi yang dimodifikasi
+       dari Perpustkaan yang kompatible dengan Versi
+       Tertaut.
 
-   e) Provide Installation Information, but only if you would otherwise
-   be required to provide such information under section 6 of the
-   GNU GPL, and only to the extent that such information is
-   necessary to install and execute a modified version of the
-   Combined Work produced by recombining or relinking the
-   Application with a modified version of the Linked Version. (If
-   you use option 4d0, the Installation Information must accompany
-   the Minimal Corresponding Source and Corresponding Application
-   Code. If you use option 4d1, you must provide the Installation
-   Information in the manner specified by section 6 of the GNU GPL
-   for conveying Corresponding Source.)
+   e) Berikan Informasi Pemasangan, tapi hanya jika kamu sebaliknya
+   diminta untuk menyediakan informasi tersebut di bawah bagian 6 dari
+   GNU GPL, dan hanya sejauh informasi tersebut
+   perlu untuk memasang  menjalankan versi modifikasi dari
+   Karya Gabungan yang diproduksi dengan cara menggabungkan atau menautkan
+   Aplikasi dengan sebuah Versi Modifikasi dari Versi Tertaut. (Jika
+   kamu menggunakan opsi 4d0, Informasi Pemasangan harus menyertai
+   Sumber Sesuai Minimal dan kode Aplikasi yang
+   sesuai. Jika kamu menggunakan opsi 4d1, kamu harus menyediakan
+   Informasi Pemasangan dengan cara yang ditentukan oleh bagian 6 dari GNU GPL
+   untuk menyampaikan Sumber yang Sesuai.)
 
-  5. Combined Libraries.
+  5. Perpustakaan Gabungan.
 
-  You may place library facilities that are a work based on the
-Library side by side in a single library together with other library
-facilities that are not Applications and are not covered by this
-License, and convey such a combined library under terms of your
-choice, if you do both of the following:
+  Kamu bisa menempatkan fasilitas perpustakaan yang merupakan pekerjaan berdasarkan
+Perpustakaan berdampingan di satu perpustakaan bersama dengan fasilitas perpustakaan 
+lainnya yang bukan Aplikasi dan tidak dilindungin oleh
+Lisensi ini, dan sampaikan sebuah Perpustakaan Gabungan dibawah persyaratan dari pilihan
+kamu, jika Kamu melakukan kedua hal berikut::
 
-   a) Accompany the combined library with a copy of the same work based
-   on the Library, uncombined with any other library facilities,
-   conveyed under the terms of this License.
+   a) Sandingkan Perpustakaan Gabungan dengan sebuah sebuah salinan dari karya yang sama berdasarkan
+   Perpustakaan, tidak digabungkan dengan fasilitas Perpustakaan lainnya,
+   disampaikan di bawah persyaratan dari Lisensi ini.
 
-   b) Give prominent notice with the combined library that part of it
-   is a work based on the Library, and explaining where to find the
-   accompanying uncombined form of the same work.
+   b) Berikan pemberitahuan yang mencolok dengan perpustakaan gabungan itu bagian darinya
+   adalah sebuah karya berdasarkan Perpustakaan, dan menjelaskan di mana menemukan
+   bentuk pekerjaan yang sama yang tidak disatukan.
 
-  6. Revised Versions of the GNU Lesser General Public License.
+  6. Versi Revisi dari Lisensi Publik GNU Lesser General.
 
-  The Free Software Foundation may publish revised and/or new versions
-of the GNU Lesser General Public License from time to time. Such new
-versions will be similar in spirit to the present version, but may
-differ in detail to address new problems or concerns.
+  Free Software Foundation dapat menerbitkan versi revisi dan/atau versi terbaru
+dari Lisensi Public GNU Lesser General dari waktu ke waktu. Versi 
+baru akan sama dengan versi sekarang dalam jiwa,  tapi mungkin juga
+berbeda secara rinci untuk mengatasi masalah atau masalah baru.
 
-  Each version is given a distinguishing version number. If the
-Library as you received it specifies that a certain numbered version
-of the GNU Lesser General Public License "or any later version"
-applies to it, you have the option of following the terms and
-conditions either of that published version or of any later version
-published by the Free Software Foundation. If the Library as you
-received it does not specify a version number of the GNU Lesser
-General Public License, you may choose any version of the GNU Lesser
-General Public License ever published by the Free Software Foundation.
+  Setiap versi diberi nomor versi yang membedakan. Jika
+Perpustakaan yang kamu menerimanya menentukan bahwa versi bernomor tertentu
+dari Lisensi Publik GNU Lesser General "atau versi yang lebih baru"
+berlaku untuk itu, kamu memiliki pilihan untuk mengikuti persyaratan dan
+kondisi baik versi yang dipublikasikan atau versi yang lebih baru
+yang diterbitkan oleh Free Software Foundation. Jika Perpustakaan seperti 
+yang kamu menerimanya tidak menentukan nomor versi dari Lisensi Umum GNU Lesser
+General, kamu dapat memilih berbagai versi dari Lisensi Umum GNU Lesser
+General yang pernah diterbitkan oleh Free Software Foundation.
 
-  If the Library as you received it specifies that a proxy can decide
-whether future versions of the GNU Lesser General Public License shall
-apply, that proxy's public statement of acceptance of any version is
-permanent authorization for you to choose that version for the
-Library.
+  Jika Perpustakaan yang kamu menerimanya menentukan bahwa seorang proxy dapat memutuskannya
+apakah versi yang akan datang dari Lisensi Umum GNU Lesser General akan
+diaplikasian, pernyataan proxi umum dari penerimaan berbagai versi adalah
+otorisasi permanen bagi kamu untuk memilih versi untuk
+Perpustakaan..
 

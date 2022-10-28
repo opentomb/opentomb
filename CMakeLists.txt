@@ -11,6 +11,7 @@ list(APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake)
 
 option(FORCE_SYSTEM_FREETYPE "Use system-provided FreeType instead of internal library." OFF)
 option(FORCE_SYSTEM_BULLET   "Use system-provided BULLET instead of internal library."   OFF)
+option(FORCE_SYSTEM_LUA      "Use system-provided Lua instead of internal library." OFF)
 
 # Detect system FreeType
 
@@ -52,7 +53,23 @@ if (OPENTOMB_INTERNAL_BULLET)
     set(BULLET_LIBRARIES bullet)
 endif ()
 
-add_subdirectory(extern/lua)
+if (FORCE_SYSTEM_LUA)
+    find_package(Lua53 QUIET)
+    if (NOT LUA53_FOUND)
+        message(WARNING "Lua not found. Enabling internal Lua support.")
+        set(OPENTOMB_INTERNAL_LUA ON)
+    else()
+        set(OPENTOMB_INTERNAL_LUA OFF)
+    endif ()
+else ()
+    set(OPENTOMB_INTERNAL_LUA ON)
+endif ()
+
+if (OPENTOMB_INTERNAL_BULLET)
+    add_subdirectory(extern/lua)
+    set(LUA_INCLUDE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/extern/lua")
+    set(LUA_LIBRARY lua5.3)
+endif ()
 
 set(OPENTOMB_SRCS
     src/core/gui/gui_obj.c
@@ -282,6 +299,7 @@ target_include_directories(
     ${PROJECT_NAME} PRIVATE
     ${FREETYPE_INCLUDE_DIRS}
     ${BULLET_INCLUDE_DIRS}
+    ${LUA_INCLUDE_DIR}
     ${PNG_INCLUDE_DIRS}
     ${ZLIB_INCLUDE_DIRS}
     ${SDL2_INCLUDE_DIR}
@@ -293,7 +311,7 @@ target_link_libraries(
     ${PROJECT_NAME}
     ${FREETYPE_LIBRARIES}
     ${BULLET_LIBRARIES}
-    lua5.3
+    ${LUA_LIBRARY}
     ${PNG_LIBRARIES}
 # ${OPENAL_LIBRARY} shoud be replaced to internal
     ${OPENAL_LIBRARY}
